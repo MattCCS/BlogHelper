@@ -15,9 +15,6 @@ import argparse
 import cgi
 import re
 import subprocess
-import sys
-
-sys.path.append("lib")
 
 from pygments import highlight
 from pygments.style import Style
