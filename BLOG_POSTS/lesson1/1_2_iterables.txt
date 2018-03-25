@@ -1,0 +1,1 @@
+This is all well and good, and it's nice to have this abstraction, but it's important to know what's <strong>really</strong> going on with Python iterables.  Well, the 

@@ -1,0 +1,25 @@
+Approach #1:  HTML inserted into Python source
+
+    + Allows intermingling code and comments
+    - Code is NOT highlighted
+    - HTML is NOT highlighted
+    + Can just run `blogify` on one file
+    - CANNOT run the Python source
+
+
+Approach #2:  Block comments for HTML, rest is Python
+
+    + Allows intermingling code and comments
+    + Code is highlighted
+    - HTML is NOT highlighted
+    + Can just run `blogify` on one file
+    + Can run the Python source
+
+
+Approach #3:  HTML in one file, code in another
+
+    - DOES NOT allow intermingling code and comments
+    + Code is highlighted
+    + HTML is highlighted
+    - CAN'T just run `blogify` on one file
+    + Can run the Python source

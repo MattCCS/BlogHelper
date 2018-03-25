@@ -1,0 +1,14 @@
+( GENERAL )
+- why #! (shebang)
+
+( PYTHON )
+- 
+
+
+( SILLY )
+- 
+
+
+( PROJECTS )
+- PythonAnywhere.com
+- IRC client

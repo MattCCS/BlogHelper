@@ -1,0 +1,6 @@
+Python does a lot of things for you, implicitly.  That includes making anything that has a natural order to it -- such as a list, a file (of lines), or a string of characters -- into an <strong>iterable</strong>.  If something in Python is an iterable, this means you can use the
+
+<code>for elem in my_iterable:
+</t>do_something(elem)</code>
+
+pattern on the iterable, here called "my_iterable".  This allows you to very easily access the elements ("elem") in order, one by one.
