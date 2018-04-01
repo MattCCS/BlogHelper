@@ -1,14 +1,38 @@
 ( GENERAL )
 - why #! (shebang)
+- APIs - metaphor of "layers of abstraction"/APIs as marble track(?) and a place with windows cut out
+- infinite plane of 2D points, spacing consistent but variable -> how to label each with no overlaps?
+- CLI tool principles
+    1. first do no harm (trivial call should do nothing/show help)
+
 
 ( PYTHON )
-- 
+- "thread-safe" meaning (safe for concurrent access)
+- pass by value vs reference
+- gotchas:
+    - "\1" = octal (0o1)
+    - "\x01" = chr(1)
+- pip installing from github
+- "-e" vs. not -> why? what happens re. directory + venv/pip freeze? uses
+
+    Project Ideas:
+    - wrapper for "".find("") that returns the line -> x.findline("") ?
+
+
+( GIT )
+- when to pull vs. rebase
+- rebases don't move tags
 
 
 ( SILLY )
-- 
+- "OEIS compression" / Kolmogorov
+- "CS Cocktails"
 
 
 ( PROJECTS )
+- Jigsaw
+- STDOUT/STDERR telemetry project
+- cache diff of 2D coordinates
+- spacer (displaytools)
 - PythonAnywhere.com
 - IRC client
